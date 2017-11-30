@@ -1,0 +1,46 @@
+// 重要讲话
+.swiper-s {
+    .swiper-slide{
+        position:relative;
+    }
+    .bg{
+        position:absolute;
+        bottom:0;
+        left:0;
+        width:100%;
+        height:40px;
+        background:rgba(0,0,0,.5);
+    }
+    .title{
+        position:absolute;
+        bottom:0;
+        left:0;
+        width:100%;
+        height:40px;
+        line-height:40px;
+        color:#fff;
+        a{
+            display:block;
+            height:100%;
+            padding:0 20px;
+            color:#fff;
+        }
+    }
+    .arrow-left,
+    .arrow-right {
+        position:absolute;
+        top:50%;
+        width:50px;
+        height:50px;
+        margin-top: -30px;
+        z-index: 2;
+    }
+    .arrow-left{
+        left:0;
+        background-position:15px -68px;
+    }
+    .arrow-right{
+        right:0;
+        background-position:-55px -68px;
+    }
+}

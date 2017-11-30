@@ -1,0 +1,777 @@
+.jg_tu {
+    overflow: hidden;
+    width: 500px;
+}
+
+.ad01 {
+    padding: 10px 0 0;
+}
+
+.ztqk {
+    width: 980px;
+    margin: 30px auto 0;
+    overflow: hidden;
+}
+
+.ztqk img {
+    display: block;
+}
+
+.cygh_box {
+    width: 483px;
+    margin-top: 30px;
+    float: left;
+}
+
+.mtjg_box {
+    width: 483px;
+    margin-top: 30px;
+    float: right;
+}
+
+.hblm {
+    width: 980px;
+    margin: 0 auto;
+}
+
+
+/*gdxw滚动新闻*/
+
+.gdxw {
+    width: 980px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    font-family: "微软雅黑";
+    margin-top: 25px
+}
+
+.gdxw #newestListScroll {
+    width: 730px;
+    height: 46px;
+    overflow: hidden;
+    float: right;
+    margin-right: 50px;
+}
+
+.gdxw h2 {
+    float: left;
+    width: 170px;
+    height: 46px;
+    overflow: hidden;
+}
+
+.gdxw #newestListScroll .wrap {
+    height: 46px;
+    width: 10000px;
+}
+
+.gdxw #gd_content,
+.gdxw #gd_scroll {
+    float: left;
+}
+
+.gdxw li {
+    float: left;
+    height: 46px;
+    line-height: 46px;
+    padding: 0 30px 0 0;
+    overflow: hidden;
+}
+
+.gdxw li .time {
+    font-size: 12px;
+    color: #f00;
+    font-style: normal;
+    padding-right: 5px;
+}
+
+.gdxw li a {
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    color: #000;
+    font-size: 15px
+}
+
+.swiper-pagination6-switch {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background: #999;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.swiper-active-switch {
+    background: #f1810e;
+}
+
+.tab1 {
+    width: 465px;
+    position: relative;
+    margin: 0px auto;
+    height: 307px;
+}
+
+.tab1 .tab_menu {
+    width: 100%;
+    float: left;
+    position: absolute;
+    z-index: 1;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.tab1 .tab_menu li {
+    float: left;
+    width: 138px;
+    height: 37px;
+    line-height: 30px;
+    border: 1px solid #ccc;
+    border-bottom: 0px;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 2px 0 0;
+}
+
+.tab1 .tab_box {
+    width: 465px;
+    clear: both;
+    top: 28px;
+    height: 266px;
+    position: relative;
+    overflow: hidden;
+}
+
+.tab1 .tab_menu .selected {
+    background-color: #be261b;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.tab1 .tab_box .tabCon {
+    margin-top: 10px;
+}
+
+.tab1 .hide {
+    display: none;
+}
+
+.tab1 .tab_menu .selected a {
+    color: #fff;
+}
+
+.tab1 .tab_menu li a {
+    color: #000;
+}
+
+.tab1 .tab_box {
+    width: 465px;
+    clear: both;
+    top: 30px;
+    height: 279px;
+    position: relative;
+    overflow: hidden;
+}
+
+.ytg_right {
+    margin-top: -1px;
+}
+
+.ga {
+    width: 978px;
+    margin: auto;
+    height: 120px;
+    margin-top: 18px;
+}
+
+.gal {
+    width: 489px;
+    float: left;
+}
+
+.gaf {
+    width: 489px;
+    margin: auto;
+    float: right
+}
+
+.xgbd ul {
+    margin: 20px 0;
+    margin-bottom: 30px
+}
+
+.xgbd li {
+    float: left;
+    margin-right: 4px
+}
+
+.xgbd .last {
+    margin-right: 0px
+}
+
+.cy_wz li {
+    margin-top: 10px;
+}
+
+
+/*---------------------20170629---------------------*/
+
+.picbox {
+    position: relative;
+    float: left;
+    width: 237px;
+    height: 178px;
+    margin-right: 8px;
+    margin-top: 10px;
+    display: inline;
+}
+
+.picbox .bg {
+    background: #000000;
+    bottom: 0;
+    height: 22px;
+    left: 0;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+.picbox .name {
+    font-family: "微软雅黑";
+    font-size: 16px;
+    bottom: 0;
+    color: #FFFFFF;
+    height: 22px;
+    left: 0;
+    line-height: 22px;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 11;
+}
+
+.picbox .name a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.ppicbox .name a:hover {
+    text-decoration: underline;
+}
+
+.widthlist {
+    list-style: none;
+    margin-top: 15px;
+}
+
+.widthlist li {
+    width: 720px;
+    height: 84px;
+    border-bottom: 1px dotted #7f7f7f;
+    overflow: hidden;
+}
+
+.widthlist li h2 span {
+    padding-right: 15px;
+}
+
+.widthlist li h2 {
+    font-family: "微软雅黑";
+    font-size: 16px;
+    color: #3a3a3a;
+    font-weight: 600;
+}
+
+.widthlist li h2 a {
+    font-weight: 600;
+    color: #3a3a3a;
+}
+
+.widthlist li p {
+    font-family: "微软雅黑";
+    font-size: 14px;
+    color: #666;
+    text-indent: 2em;
+    margin-top: 10px;
+}
+
+.widthlist li p span {
+    font-family: "微软雅黑";
+    font-size: 14px;
+    color: #f1810e;
+}
+
+.widthlist li p span a {
+    color: #f1810e;
+}
+
+
+/*---------------------20170707最新播报---------------------*/
+
+.picNews2 {
+    height: 266px;
+    overflow: hidden;
+    position: relative;
+    width: 476px;
+    margin: 0 0 20px 0;
+}
+
+.picNews2 .picImg a {
+    display: block;
+    line-height: 0
+}
+
+.picNews2 .picImg img {
+    width: 100%;
+    height: 266px;
+}
+
+.picNews2 .picBg {
+    background: #333 none repeat scroll 0 0;
+    bottom: 0;
+    height: 35px;
+    left: 0;
+    opacity: 0.4;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+.picNews2 .picTit {
+    bottom: 0;
+    color: #ffffff;
+    font-weight: bold;
+    height: 35px;
+    left: 0;
+    line-height: 35px;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 11;
+}
+
+.picNews2 .picTit a {
+    color: #ffffff;
+    line-height: 35px;
+}
+
+.tpbd_box {
+    margin-top: 10px;
+}
+
+.picScroll-right {
+    width: 1000px;
+    position: relative;
+    margin-top: 15px;
+}
+
+.picScroll-right .bd ul {
+    overflow: hidden;
+    zoom: 1;
+}
+
+.picScroll-right .bd ul li {
+    margin: 0 5px;
+    float: left;
+    _display: inline;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+
+.picScroll-right .bd ul li .img,
+.picScroll-right .bd ul li .img a {
+    display: block;
+    font-size: 0;
+    height: 187px;
+    width: 242px;
+}
+
+.picScroll-right .bd ul li .bg {
+    background: #000 none repeat scroll 0 0;
+    bottom: 0;
+    height: 30px;
+    left: 0;
+    opacity: 0.4;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.picScroll-right .bd ul li .text {
+    bottom: 0;
+    height: 30px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
+.picScroll-right .bd ul li .text h4 {
+    height: 30px;
+    overflow: hidden;
+    padding: 0 5px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.picScroll-right .bd ul li .text h4 a {
+    color: #fff;
+    font-size: 12px;
+    line-height: 30px;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+/* 顶部导航
+--------------------------------------------------*/
+
+#topHeader {
+    height: 32px;
+    text-align: center;
+    border-bottom: 1px solid #c9c9ca;
+    background: #f9f7f4;
+}
+
+#topHeader .top {
+    width: 1000px;
+    margin: 0 auto;
+    height: inherit;
+}
+
+#topHeader a {
+    float: left;
+    height: 32px;
+    line-height: 32px;
+    color: #000;
+    margin: 0 10px;
+    font-size: 12px;
+}
+
+#topHeader a:hover {
+    color: #fca22c!important;
+}
+
+.zxbb_box {
+    margin-top: 10px;
+}
+
+
+/*---- 20170729新增 纪念大会 特别报道 阅兵图集 三大区块 ------------------------------------------------------------------------------------*/
+
+.part {
+    padding-bottom: 20px;
+}
+
+.part .partL {
+    width: 480px;
+}
+
+.part .partR {
+    width: 480px;
+}
+
+.part1 .partR h3 a {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.part1 .partR .list {
+    margin-bottom: 10px;
+}
+
+
+/*焦点图*/
+
+#focusImg2 {
+    width: 485px;
+    height: 275px;
+    overflow: hidden;
+    position: relative;
+}
+
+#focusImg2 .swiper-wrapper {
+    width: 485px;
+    height: 275px;
+}
+
+#focusImg2 .swiper-wrapper .swiper-slide {
+    float: left;
+    position: relative;
+}
+
+#focusImg2 .swiper-wrapper .swiper-slide .img,
+#focusImg2 .swiper-wrapper .swiper-slide .img a,
+#focusImg2 .swiper-wrapper .swiper-slide img {
+    width: 485px;
+    height: 275px;
+    font-size: 0px;
+    vertical-align: top;
+}
+
+#focusImg2 .swiper-wrapper .swiper-slide .bg {
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    z-index: 0;
+    bottom: 0px;
+    left: 0px;
+    background: #000;
+    filter: alpha(opacity=70);
+    -moz-opacity: 0.7;
+    opacity: 0.7;
+}
+
+#focusImg2 .swiper-wrapper .swiper-slide .title {
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    z-index: 1;
+    bottom: 0px;
+    left: 0px;
+}
+
+#focusImg2 .swiper-wrapper .swiper-slide .title a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    font-size: 16px;
+    color: #fff;
+    font-family: 微软雅黑;
+    text-decoration: none;
+}
+
+#focusImg2 .pagination {
+    position: absolute;
+    bottom: 15px;
+    right: 0px;
+}
+
+#focusImg2 .swiper-pagination-switch {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: #ffffff;
+    margin-right: 15px;
+    opacity: 0.8;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+#focusImg2 .swiper-visible-switch {
+    background: #8d8d8e;
+}
+
+#focusImg2 .swiper-active-switch {
+    background: #8d8d8e;
+}
+
+
+/*纪念大会*/
+
+.jndh {
+    padding-top: 30px;
+    font-family: "微软雅黑";
+}
+
+.jndh h3 a {
+    display: block;
+    height: 100%;
+}
+
+.jndh .ldjh h3,
+.jndh .tbbd h3,
+.jndh .tp h3,
+.jndh .sphk h3 {
+    width: 100%;
+    height: 38px;
+    overflow: hidden;
+    text-indent: -999px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.jndh .ldjh {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.jndh .ldjh img {
+    float: left;
+    margin-right: 20px;
+    display: inline;
+}
+
+.jndh .ldjh h4 {
+    margin: 30px 0 30px 0;
+}
+
+.jndh .ldjh h4 a {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.jndh .ldjh h3 {
+    background-position: -160px -1000px;
+}
+
+.jndh .ldjh p {
+    text-indent: 2em;
+    font-size: 16px;
+    color: #666;
+    line-height: 2em;
+}
+
+.jndh .ldjh .time {
+    text-align: right;
+    color: #333;
+    padding-top: 10px;
+}
+
+.jndh .list li {
+    line-height: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-bottom: 1px dashed #999;
+    background-position: -460px -440px;
+}
+
+.jndh .list li a {
+    font-size: 16px;
+}
+
+.jndh .list li.last {
+    // border: none;
+}
+
+.jndh .tabTit {
+    float: right;
+    width: 200px;
+}
+
+.jndh .tabTit li {
+    height: 50px;
+    border-top: 1px solid #ccc;
+    line-height: 25px;
+    position: relative;
+    padding-left: 10px;
+}
+
+.jndh .tabTit li span {
+    display: none;
+}
+
+.jndh .tabTit li.on {
+    background: #f1f1f1;
+}
+
+.jndh .tabTit li.on span {
+    width: 12px;
+    height: 50px;
+    position: absolute;
+    left: -10px;
+    top: 0;
+    display: block;
+}
+
+.jndh .tabTit li.last {
+    border-bottom: 1px solid #ccc;
+}
+
+.jndh .picTab .pic {
+    float: left;
+    width: 280px;
+}
+
+.jndh .picTab .pic a {
+    display: none;
+}
+
+.jndh .picTab .pic a.on {
+    display: block;
+}
+
+.jndh .picTab {
+    margin-top: 10px;
+}
+
+.jndh .sphkCon {
+    margin-top: 36px;
+    /*height: 270px;width: 480px;*/
+    position: relative;
+    overflow: hidden;
+}
+
+.jndh .sphkCon img {
+    width: 100%;
+    height: auto;
+}
+
+.jndh .sphkCon .bg {
+    background: #000;
+    width: 100%;
+    height: 35px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    z-index: 2;
+}
+
+.jndh .sphkCon h4 {
+    font-size: 14px;
+    line-height: 35px;
+    overflow: hidden;
+    color: #fff;
+    font-weight: bold;
+    font-family: "微软雅黑", Microsoft YaHei;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.jndh .sphkCon h4 a {
+    font-family: "微软雅黑", Microsoft YaHei;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    font-weight: normal;
+    margin-left: 10px;
+}
+
+.jndh .tp {
+    margin-top: 20px;
+}
+
+.jndh .tp li {
+    float: left;
+    width: 240px;
+    margin-right: 12px;
+    display: inline;
+}
+
+.jndh .tp li.last {
+    margin: 0;
+}
+
+.jndh .tp li img {
+    width: 100%;
+}
+
+.jndh .tp h4 a {
+    font-size: 14px;
+    font-weight: normal;
+}

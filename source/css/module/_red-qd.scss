@@ -1,0 +1,28 @@
+.cy-section-qd{
+    text-align:center;
+    .list{
+        @include clearfix;
+    }
+    .item{
+        float:left;
+        width:230px;
+        margin:0 10px;
+        img{
+            display:block;
+        }
+    }
+    .item-content{
+        height:45px;
+        line-height:45px;
+        border:1px solid $red-1;
+        text-align:center;
+        font-size:16px;
+        overflow:hidden;
+        white-space:nowrap;
+        text-overflow:ellipsis;
+    }
+    .readmore{
+        padding:35px 0;
+        border-bottom:4px solid #dcdcdc;
+    }
+}

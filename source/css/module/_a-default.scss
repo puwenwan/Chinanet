@@ -1,0 +1,20 @@
+//some colors
+$black:#333;
+$black-light: #666;
+$black-dark: #000;
+$red: #cc0000;
+$red-border: #bd0000;
+$gray: #8a8a8a;
+$button-bg: #e5e5e5;
+$gray-bg: #f2f2f2;
+
+//some mixin
+@mixin clearfix{
+    *zoom:1;
+    &:after{
+        visibility: hidden;
+        display: block;
+        content: " ";
+        clear: both;
+    }
+}

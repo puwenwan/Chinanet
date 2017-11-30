@@ -1,0 +1,80 @@
+@charset "utf-8";
+/** some style rewrite **/
+.abc-page{
+    font-family: "微软雅黑", "Microsoft Yahei", Arial, Helvetica, sans-serif;
+    font-size:14px;
+    color:$black;
+}
+.container{
+    position:relative;
+    width:1000px;
+    padding:0 3px;
+    margin:350px auto 0 auto;
+    background:#fff;
+    background: linear-gradient(top, #910707, #910707 200px, rgba(204, 0, 0, 0) 740px);
+    background: -o-linear-gradient(top, #910707, #910707 200px, rgba(204, 0, 0, 0) 740px);
+    background: -moz-linear-gradient(top, #910707, #910707 200px, rgba(204, 0, 0, 0) 740px);
+    background: -ms-linear-gradient(top, #910707, #910707 200px, rgba(204, 0, 0, 0) 740px);
+    background: -webkit-linear-gradient(top, #910707, #910707 200px, rgba(204, 0, 0, 0) 740px);
+}
+.abc-main{
+    background:#fff;
+}
+a:hover{
+    color:$red;
+}
+.cy-section{
+    .main img{
+        width:100%;
+    }
+}
+//icon
+.tt-tag, 
+.arrow-left,
+.arrow-right,
+.next,
+.prev{
+    display:inline-block;
+    background:url(../img/icon.png) no-repeat 0 0;
+}
+//标题
+.section-title{
+    position:relative;
+    border-bottom:3px solid $red-border;
+    .title-tag{
+        width:160px;
+        height:36px;
+        background:url(../img/title.png) no-repeat 0 0;
+        text-indent:-8000px;
+    }
+    .title-2{
+        background-position:0 -40px;
+    }
+    .title-3{
+        background-position:0 -80px;
+    }
+    .title-4{
+        background-position:0 -120px;
+    }
+    .title-5{
+        background-position:0 -160px;
+    }
+    .title-6{
+        width:248px;
+        background-position:0 -200px;
+    }
+    .title-7{
+        width:183px;
+        background-position:0 -240px;
+    }
+    .title-8{
+        background-position:0 -280px;
+    }
+    .more{
+        position: absolute;
+        right:0;
+        bottom:2px;
+        color:$gray;
+        font-size:12px;
+    }
+}

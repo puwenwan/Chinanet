@@ -1,0 +1,44 @@
+// 基层故事 和 普惠金融成就展
+.ytg_box{
+    margin-top:50px;
+    .section-title{
+        margin-bottom:30px;
+    }
+    .yc_more{
+        border-bottom-style:dashed;
+        text-align:center;
+        height:auto;
+        a{
+            display:block;
+            padding-bottom:8px;
+        }
+    }
+}
+// 农行大记事儿
+.tpbd_box{
+    .tempWrap{
+        margin-left:-4px;
+        margin-right:-4px;
+    }
+}
+//滚动播报
+.zxbb_box{
+    margin:50px 0;
+    .bb_more{
+        a{
+            display:block;
+            height:50px;
+            line-height:50px;
+            text-align:center;
+            background:$gray-bg;
+            border-bottom:1px dashed $gray;
+            transition:all .3s ease-out;
+            color:$black-light;
+            &:hover{
+                background:$button-bg;
+                transition:all .3s ease-out;
+                color:$black-light;
+            }
+        }
+    }
+}

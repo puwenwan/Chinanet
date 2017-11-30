@@ -1,0 +1,68 @@
+/** section award person **/
+.section-award-person{
+    margin-bottom:60px;
+    .person-items{
+        @include clearfix;
+        margin-right:-10px;
+    }
+    .person-item{
+        float:left;
+        width:188px;
+        padding:10px 10px 0 0;
+    }
+    .person-item-pic{
+        width:188px;
+        height:124px;
+        overflow:hidden;
+        a img{
+            transform:scale(1);
+            transition:transform .5s ease-out;
+        }
+        a:hover img{
+            transform:scale(1.2);
+            transition:transform .5s ease-out;
+        }
+    }
+    dl{
+        padding-top:5px;
+    }
+    dt{
+        position:relative;
+        height:32px;
+        margin-bottom:10px;
+        border-bottom:1px dotted $gray;
+        text-align:center;
+        font-size:15px;
+        color:$black-1;
+        &:before{
+            position:absolute;
+            top:4px;
+            left:20px;
+            content:"";
+            width:0;
+            height:0;
+            border-top:6px solid transparent;
+            border-bottom:6px solid transparent;
+            border-left:10px solid $blue;
+        }
+        h3{
+            font-size:1em;
+        }
+    }
+    dd{
+        position:relative;
+        line-height:24px;
+        padding:0 15px;
+        text-indent:1em;
+        &:before{
+            position:absolute;
+            top:10px;
+            left:15px;
+            content:"";
+            width:3px;
+            height:3px;
+            background:$black;
+            border-radius:50%;
+        }
+    }
+}

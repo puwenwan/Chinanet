@@ -1,0 +1,20 @@
+// Colors
+$red: #cc0000;
+$red-1: #e60012;
+$blue: #06c;
+$black: #000;
+$black-1: #333;
+$gray: #999;
+$gray-1: #959595;
+$gray-2: #e5e5e5;
+
+//some mixin
+@mixin clearfix{
+    *zoom:1;
+    &:after{
+        visibility: hidden;
+        display: block;
+        content: " ";
+        clear: both;
+    }
+}

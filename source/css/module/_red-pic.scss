@@ -1,0 +1,58 @@
+.cy-section-pic{
+    margin-bottom:50px;
+    .container{
+        padding:15px 0;
+        background:$gray-2;
+    }
+    .native-carousel{
+        width:900px;
+        height:435px;
+        margin:0 auto;
+        .list{
+            width:900px;
+            margin:0 auto;
+            height: 375px;
+            .detail{
+                margin-top:10px;
+                .title{
+                    font-size:20px;
+                    color:$red-1;
+                    letter-spacing: .025em;
+                }
+            }
+        }
+        .base-pager{
+            bottom:20px;
+            right:0;
+            width:auto;
+            background:$gray-2;
+            .item{
+                width:15px;
+                height:15px;
+                a{
+                    // width:15px;
+                    height:15px;
+                    border-radius:50%;
+                }
+            }
+        }
+    }
+    .caption{
+        @include clearfix;
+        .item-content{
+            float:left;
+            width:720px;
+            height:60px;
+            line-height:60px;
+            font-size:20px;
+            color:$red-1;
+            overflow:hidden;
+            white-space:nowrap;
+            text-overflow:ellipsis;
+        }
+        .btn{
+            float:right;
+            margin-top:15px;
+        }
+    }
+}

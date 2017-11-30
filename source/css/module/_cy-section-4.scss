@@ -1,0 +1,143 @@
+/** 互动家速度 **/
+$topic-black: #2f383d;
+$topic-black-topic: #fff;
+$topic-black-content: #a4a4a4;
+
+$topic-orange: #f5ba52;
+$topic-orange-topic: #333;
+$topic-orange-content: #666;
+
+$topic-purple: #6817cc;
+$topic-purple-topic: #fff;
+$topic-purple-content: #a4a4a4;
+
+$topic-blue: #76bfea;
+$topic-blue-topic: #fff;
+$topic-blue-content: #fff;
+.cy-section-4{
+    background:#f2f2f2 url(../img/d-bg.jpg) no-repeat center bottom;
+    .title-s{
+        position:relative;
+        margin-bottom:15px;
+        padding-left:20px;
+        font-size:16px;
+        color:#474747;
+        &:before{
+            position: absolute;
+            top:7px;
+            left:0;
+            content:" ";
+            width:4px;
+            height:4px;
+            background:$red-1;
+            border-radius:50%;
+        }
+    }
+    .pic-group, li{
+        @include clearfix;
+    }
+    li{
+        float:left;
+        height:250px;
+        .content{
+            position:relative;
+            float:left;
+            width:230px;
+            height:230px;
+            padding:20px 10px 0 10px;
+            line-height:1.5;
+            color:#fff;
+            &:before{
+                position: absolute;
+                top:30px;
+                left:-15px;
+                content:" ";
+                width:0;
+                height:0;
+                border-right:15px solid #fff;
+                border-top:10px solid transparent;
+                border-bottom:10px solid transparent;
+            }
+        }
+        .topic{
+            margin-bottom:10px;
+            font-size:16px;
+        }
+        .black{
+            background:$topic-black;
+            color:$topic-black-content;
+            .topic{
+                color:$topic-black-topic;
+            }
+            &:before{
+                border-right-color:$topic-black;
+            }
+        }
+        .orange{
+            background:$topic-orange;
+            color:$topic-orange-content;
+            .topic{
+                color:$topic-orange-topic;
+            }
+            &:before{
+                border-right-color:$topic-orange;
+            }
+        }
+        .purple{
+            background:$topic-purple;
+            color:$topic-purple-content;
+            .topic{
+                color:$topic-purple-topic;
+            }
+            &:before{
+                border-right-color:$topic-purple;
+            }
+        }
+        .blue{
+            background:$topic-blue;
+            color:$topic-blue-content;
+            .topic{
+                color:$topic-blue-topic;
+            }
+            &:before{
+                border-right-color:$topic-blue;
+            }
+        }
+        .more-area{
+            position:absolute;
+            width:100%;
+            left:0;
+            bottom:0;
+            background:rgba(0,0,0,.7);
+            color:#fff;
+            a{
+                display:block;
+                padding:15px;
+            }
+        }
+    }
+    .item-1, .item-6{
+        width:750px;
+        .pic{
+            float:left;
+            width:500px;
+        }
+    }
+    .item-2, .item-5{
+        width:250px;
+    }
+    .item-3, .item-4{
+        width:500px;
+        .pic{
+            float:left;
+            width:250px;
+        }
+    }
+    .highlight{
+        color:$red-1;
+    }
+    a:hover{
+        color:$red-1;
+        text-decoration: underline;
+    }
+}

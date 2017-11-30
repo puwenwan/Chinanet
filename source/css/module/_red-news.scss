@@ -1,0 +1,99 @@
+/** hot news **/
+.cy-section-news{
+    .cy-title{
+        .label{
+            margin-bottom:30px;
+            a{
+                margin:0 8px;
+                border-color:#333;
+                color:$gray;
+                &:hover{
+                    background:$gray;
+                    color:#fff;
+                }
+                &.active{
+                    border-color:$red-1;
+                    color:$red-1;
+                    &:hover{
+                        background:$red-1;
+                        color:#fff;
+                    }
+                }
+            }
+        }
+    }
+    .news-wrap{
+        padding:30px 20px;
+        background:#e5e5e5;
+        @include clearfix;
+    }
+    .list{
+        position:relative;
+        width:970px;
+        height:270px;
+        li{
+            position:absolute;
+            top:0;
+            left:0;
+            width:100%;
+            height:270px;
+            z-index:0;
+            opacity:0;
+            transition:all .5s ease-out;
+            &.active{
+                z-index:1;
+                opacity: 1;
+                transition:all .5s ease-out;
+            }
+        }
+        .img-wrap{
+            position:relative;
+            float:left;
+            width:445px;
+            .caption{
+                position:absolute;
+                bottom:0;
+                left:0;
+                width:100%;
+                padding:12px 0;
+                background:rgba(0,0,0,.5);
+                color:#fff;
+                .h5{
+                    padding:0 15px;
+                }
+            }
+        }
+        .detail{
+            float:right;
+            width:480px;
+            padding:0 10px;
+            .title{
+                margin-bottom:15px;
+                padding:5px 0 10px 0;
+                border-bottom:1px dashed #666;
+                font-size:20px;
+            }
+            .content-wrap{
+                position:relative;
+            }
+            .readmore{
+                position: absolute;
+                bottom:0;
+                left:0;
+                width:100%;
+                padding-top:10px;
+                background:$gray-2;
+            }
+            .content{
+                height:172px;
+                padding-bottom:32px;
+                line-height:1.8;
+                overflow:auto;
+            }
+        }
+        .color-icon{
+            display:inline-block;
+            vertical-align: middle;
+        }
+    }
+}

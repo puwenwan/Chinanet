@@ -1,0 +1,70 @@
+/** slide nav **/
+.slide-nav{
+    position:absolute;
+    top:900px;
+    right:5px;
+    padding:30px 0 30px 30px;
+    border-left:1px solid $gray-1;
+    font-size:18px;
+    color:$gray-1;
+    .page-to-btn{
+        position: relative;
+        display:inline-block;
+        min-width:40px;
+        margin-left:15px;
+        text-align: center;
+        &:before{
+            position: absolute;
+            bottom:-20px;
+            left:0;
+            content:" ";
+            width:100%;
+            height:14px;
+            background:url(../img/icon-1.png) no-repeat center bottom;
+        }
+    }
+    .toTop{
+        &:before{
+            bottom:auto;
+            top:-20px;
+            background-position: center top;
+        }
+    }
+    ul{
+        margin:40px 0;
+    }
+    li{
+        margin:15px 0;
+        a:hover{
+            text-decoration: underline;
+        }
+        &.active{
+            position:relative;
+            &:before{
+                position:absolute;
+                top:0;
+                left:-34px;
+                content:" ";
+                width:7px;
+                height:100%;
+                background:$gray-1;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1360px) {
+    .slide-nav{
+        padding:20px 0 20px 15px;
+        font-size:12px;
+        ul{
+            margin:25px 0;
+        }
+        li{
+            &.active{
+                &:before{
+                    left:-19px;
+                }
+            }
+        }
+    }
+}

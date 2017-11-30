@@ -1,0 +1,179 @@
+/** 春运 common **/
+.cy-page{
+    font-family: "微软雅黑", "Microsoft Yahei", Arial, Helvetica, sans-serif;
+    font-size:14px;
+    color:#333;
+    letter-spacing:.025em;
+}
+.cy-section{
+    .main{
+        @include clearfix;
+    }
+    .main img{
+        width:100%;
+    }
+    .container{
+        width:1000px;
+        margin:0 auto;
+        @include clearfix;
+    }
+}
+a{
+    color:inherit;
+}
+.phd{
+    height:465px;
+    text-indent:-8000px;
+}
+.hidden{
+    display:none;
+}
+.cy-section{
+    // padding:55px 0;
+}
+.cy-title{
+    margin-bottom:15px;
+    padding-top:60px;
+    text-align:center;
+    .cy-h3{
+        margin-bottom:25px;
+        font-size:24px;
+        color:$red-1;
+        letter-spacing:.25em;
+    }
+    .divide{
+        display:inline-block;
+        width:210px;
+        border-top:1px solid #dfdfdf;
+    }
+    .star{
+        position:relative;
+        top:-8px;
+        display:inline-block;
+        width:40px;
+        height:15px;
+        background:#fff url(../img/star.png) no-repeat 50% 0;
+    }
+}
+
+.color-icon{
+     i{
+        display:inline-block;
+        width:15px;
+        height:30px;
+        background:#c0c0c0;
+        &.red{
+            background:$red-1;
+        }
+        &.black{
+            background:#333;
+        }
+    }
+}
+.slide-sysbol{
+    position:relative;
+    width:120px;
+    height:243px;
+    border:4px solid #333;
+    .sys-title{
+        position:absolute;
+        top:30px;
+        left:-30px;
+        padding:2px 0 10px 0;
+        background:#fff;
+        text-align:right;
+        h4{
+            margin-bottom:5px;
+            font-size:20.65px;
+            color:$red-1;
+            letter-spacing:-0.05em;
+            white-space: nowrap;
+        }
+        .slogan{
+            font-size:18px;
+        }
+        &:after{
+            content:"";
+            position:absolute;
+            right:0;
+            bottom:0;
+            width:30px;
+            height:2px;
+            background:$red-1;
+        }
+    }
+    .btn-more{
+        position:absolute;
+        bottom:-20px;
+        left:20px;
+        min-width:80px;
+        height:40px;
+        line-height:40px;
+        background:$red-1;
+        color:#fff;
+        font-size:16px;
+        text-align:center;
+    }
+    &.slide-l{
+        .sys-title{
+            left:20px;
+            min-width:110px;
+            text-align:left;
+            h4{
+                font-size:18px;
+            }
+            &:after{
+                left:0;
+                right:auto;
+            }
+            &:before{
+                content:"";
+                position:absolute;
+                right:0;
+                bottom:13px;
+                border-left:10px solid $red-1;
+                border-top:8px solid transparent;
+                border-bottom:8px solid transparent;
+            }
+        }
+    }
+    &.short{
+        height:124px;
+    }
+}
+.btn{
+    display:inline-block;
+    min-width:100px;
+    height:24px;
+    line-height:24px;
+    padding:0 12px;
+    color:$red-1;
+    border:1px solid $red-1;
+    text-align:center;
+    letter-spacing:.15em;
+    transition:all .3s ease-out;
+    &:hover{
+        background:$red-1;
+        color:#fff;
+        transition:all .3s ease-out;
+    }
+    &.btn-gray{
+        color:$gray;
+        border-color:#333;
+        &:hover{
+            background:$gray;
+            border-color:$gray;
+            color:#fff;
+        }
+    }
+    &.btn-small{
+        min-width:60px;
+    }
+    &.btn-middle{
+        height:36px;
+        line-height:36px;
+    }
+}
+.native-carousel .base-pager .item a{
+    background-color:$gray-1;
+}

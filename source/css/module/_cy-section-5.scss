@@ -1,0 +1,32 @@
+/** 春运新风尚 **/
+.cy-section-5{
+    .main{
+        padding:15px 0;
+        border:10px solid #d3d3d3;
+        background:#f2eeef;
+    }
+    .native-carousel{
+        width:650px;
+        height:680px;
+        margin:0 auto;
+        overflow:visible;
+        .nativ-carousel-inner{
+            position:relative;
+            width:650px;
+            overflow:hidden;
+            height:100%;
+        }
+        .button-box .button{
+            width:36px;
+            opacity:.5;
+        }
+        .button-box .prev{
+            left:-100px;
+            background:url(../img/icon-2.png) no-repeat 0 50%;
+        }
+        .button-box .next{
+            right:-100px;
+            background:url(../img/icon-2.png) no-repeat right 50%;
+        }
+    }
+}

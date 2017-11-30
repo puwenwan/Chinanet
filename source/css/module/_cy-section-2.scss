@@ -1,0 +1,73 @@
+/** 第一现场 **/
+.cy-section-2{
+    background:#fff7e6 url(../img/b-bg.jpg) no-repeat center bottom;
+    .main-l{
+        float:left;
+        width:588px;
+        .item{
+            height:136px;
+            margin-bottom:25px;
+            background:#fff;
+            @include clearfix;
+            &:last-child{
+                margin-bottom:0;
+            }
+        }
+        .pic{
+            float:left;
+            width:218px;
+        }
+        .content{
+            float:left;
+            width:325px;
+            padding:10px 10px 0 20px;
+            line-height:1.5;
+            color:$gray;
+        }
+        .topic{
+            margin-bottom:10px;
+            font-size:16px;
+            color:#474747;
+        }
+    }
+    .main-r{
+        float:right;
+        width:388px;
+        .item{
+            height:458px;
+            background:#fff;
+        }
+        .pic{
+            height:242px;
+        }
+        .content{
+            padding:25px 20px 0 20px;
+        }
+        li{
+            position:relative;
+            margin-bottom:15px;
+            font-size:16px;
+            color:#474747;
+            &:before{
+                position: absolute;
+                top:7px;
+                left:0;
+                content:" ";
+                width:4px;
+                height:4px;
+                background:$gray-1;
+            }
+            a{
+                display:block;
+                padding-left:15px;
+            }
+        }
+    }
+    .highlight{
+        color:$red-1;
+    }
+    a:hover{
+        color:$red-1;
+        text-decoration: underline;
+    }
+}
